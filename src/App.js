@@ -1,12 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import pokiball from './assets/pokiball.png';
+import osmar from './assets/osmar.jpg';
+import './App.css'; // Import the custom CSS for spinning animation
 
-function App() {
+const ProfGoLogo = () => {
   return (
-    <div className="App">
-      <p className='text-blue-800'>ProGo</p>
+    <div className="flex flex-col justify-center items-center h-screen bg-gray-100">
+      <h1 className="text-4xl font-bold text-green-500 flex items-center">
+        Prof<span className="OG text-yellow-500 mr-0">G</span>
+        <span className="inline-block mx-2 relative ml-0 pl-0">
+          <img src={pokiball} alt="Pokéball" className=" poki w-12 h-12 animate-spin-slow pl-0" />
+        </span>
+      </h1>
     </div>
   );
-}
+};
 
-export default App;
+
+export default ProfGoLogo;
