@@ -9,7 +9,7 @@ function App() {
       <div>
         <Navbar />
       </div>
-      <ProfGoLogo/>
+    
       <div className='Body flex flex-wrap justify-center'>
         <Card />
         <Card />
