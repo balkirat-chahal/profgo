@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import ProfGoLogo from './ProfGoLogo';
+import SearchBar from './SearchBar';
 
 function Navbar() {
   return (
@@ -7,8 +9,17 @@ function Navbar() {
     flex
     flex-col
     '>
-        <div>
+        <div className='
+        w-full
+        justify-around
+        flex
+        flex-row
+        items-center
+        '>
 
+            <ProfGoLogo />
+            {/* Search Bar */}
+            <SearchBar />
         </div>
         <div>
 
