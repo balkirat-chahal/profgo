@@ -10,11 +10,22 @@ function SearchBar() {
     console.log(search);
   }
 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+  }
 
   return (
-    <form>
-        <input type='text' value={search} onChange={handleChange} className='' />
-        <button>Search</button>
+    <form className='flex flex-row justify-center items-center'>
+        <input type='text' value={search} onChange={handleChange} className='
+        bg-gray-600
+        rounded-lg
+        text-base
+        w-full
+        mt-5
+        p-1
+        text-white
+        ' />
+        <button type='submit' onSubmit={handleSubmit} className='text-white mt-5 ml-2'>Search</button>
     </form>
   )
 }
