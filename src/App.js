@@ -1,5 +1,4 @@
 import React from 'react';
-import ProfGoLogo from './components/ProfGoLogo';
 import Navbar from './components/Navbar';
 import Card from './components/Card';
 
