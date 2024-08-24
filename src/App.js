@@ -1,5 +1,5 @@
 import React from 'react';
-import ProfGoLogo from './ProfGoLogo';
+import ProfGoLogo from './components/ProfGoLogo';
 
 function App() {
   return (

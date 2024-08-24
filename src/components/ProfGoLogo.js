@@ -1,7 +1,6 @@
 import React from 'react';
-import pokiball from './assets/pokiball.png';
-import osmar from './assets/osmar.jpg';
-import './App.css'; // Import the custom CSS for spinning animation
+import pokiball from '../assets/pokiball.png';
+import '../App.css'; 
 
 const ProfGoLogo = () => {
   return (
