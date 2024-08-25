@@ -2,13 +2,12 @@ import React from 'react';
 import { useState } from 'react';
 import Search from '@mui/icons-material/Search';
 
-function SearchBar() {
+function SearchBar(props) {
 
-  const [search, setSearch] = useState("");
+  const search = props.search;
 
   const handleChange = (e) => {
-    setSearch(e.target.value);
-    console.log(search);
+    props.setSearch(e.target.value);
   }
 
   const handleSubmit = (e) => {

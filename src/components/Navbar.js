@@ -2,7 +2,7 @@ import React from 'react';
 import ProfGoLogo from './ProfGoLogo';
 import SearchBar from './SearchBar';
 
-function Navbar() {
+function Navbar(props) {
   return (
     <nav className='
     w-full
@@ -19,7 +19,7 @@ function Navbar() {
 
             <ProfGoLogo />
             {/* Search Bar */}
-            <SearchBar/>
+            <SearchBar search={props.search} setSearch={props.setSearch}/>
         </div>
         <div>
 
