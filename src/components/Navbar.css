@@ -1,11 +1,11 @@
 .animated-text {
-    font-size: 2rem; /* Adjust as needed */
-    font-weight: bold; /* Adjust as needed */
-    color: transparent; /* Make text color transparent for background effect */
+    font-size: 2rem; 
+    font-weight: bold; 
+    color: transparent; 
     background: linear-gradient(to right, yellow, green);
-    background-clip: text; /* Clip the background gradient to the text */
-    -webkit-background-clip: text; /* For WebKit browsers */
-    animation: colorSlide 3s infinite; /* Animation name, duration, and repetition */
+    background-clip: text; 
+    -webkit-background-clip: text; 
+    animation: colorSlide 3s infinite; 
   }
   
   @keyframes colorSlide {
@@ -18,5 +18,31 @@
     100% {
       background-position: 0% 0%;
     }
+  }
+
+  .notification {
+    background-color: #4caf50; /* Green background */
+    color: white; /* Text color */
+    padding: 10px;
+    border-radius: 5px;
+    position: fixed;
+    top: 60px; /* Adjust this value according to your navbar height */
+    left: 0;
+    width: 100%; /* Full width */
+    text-align: center; /* Center the text */
+    z-index: 1000; /* Ensure it is above other elements */
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+  .notification.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .notification.fade-out {
+    opacity: 0;
+    transform: translateY(-20px);
   }
   

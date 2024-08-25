@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import Search from '@mui/icons-material/Search';
+import Map from './Map';
 
 function SearchBar(props) {
 
@@ -26,6 +27,7 @@ function SearchBar(props) {
         text-white
         ' />
         <button type='submit' className='text-white mt-5 ml-2'><Search className='text-lg'/></button>
+        
     </form>
   )
 }
