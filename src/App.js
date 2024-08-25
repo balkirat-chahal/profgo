@@ -5,6 +5,7 @@ import Quiz from './components/Quiz';
 import { useState } from 'react';
 import professors from './professors.json';
 import { Routes, Route } from 'react-router-dom';
+import Map from './components/Map';
 
 function App() {
 
@@ -20,6 +21,8 @@ function App() {
       <Routes>
         <Route path='/' element={<Home search={search} profs={profs}/>}/>
         <Route path='/quiz' element={<Quiz profs={profs}/>}/>
+        <Route path='/Map' element={<Map/>}/>
+        
       </Routes>
 
     </div>
