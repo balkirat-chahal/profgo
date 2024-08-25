@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
+import Search from '@mui/icons-material/Search';
 
 function SearchBar() {
 
@@ -15,7 +16,7 @@ function SearchBar() {
   }
 
   return (
-    <form className='flex flex-row justify-center items-center'>
+    <form onSubmit={handleSubmit} className='flex flex-row justify-center items-center'>
         <input type='text' value={search} onChange={handleChange} className='
         bg-gray-600
         rounded-lg
@@ -25,7 +26,7 @@ function SearchBar() {
         p-1
         text-white
         ' />
-        <button type='submit' onSubmit={handleSubmit} className='text-white mt-5 ml-2'>Search</button>
+        <button type='submit' className='text-white mt-5 ml-2'><Search className='text-lg'/></button>
     </form>
   )
 }

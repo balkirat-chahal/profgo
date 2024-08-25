@@ -19,7 +19,7 @@ function Navbar() {
 
             <ProfGoLogo />
             {/* Search Bar */}
-            <SearchBar />
+            <SearchBar/>
         </div>
         <div>
 
