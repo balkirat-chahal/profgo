@@ -19,7 +19,13 @@ function App() {
         {
           profs.filter(prof => prof.name.toLowerCase().includes(search.toLowerCase()))
           .map( (prof, index) => {
-            return <Card />
+            return <Card 
+            name={prof.name}
+            punchline={prof.punchline}
+            photo_link={prof.photo_link}
+            courses={prof.courses}
+            skills={prof.skills}
+            />
           })
         }
       </div>

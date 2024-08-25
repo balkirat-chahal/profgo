@@ -8,7 +8,7 @@ function Card({ name, punchline, photo_link, skills = [], courses = [] }) {
         <div className="card-front">
           <div className="border-2 w-full h-full rounded-md border-green-500 flex flex-col items-center justify-center">
             <img src={photo_link} alt={name} className="prof-photo" />
-            <div className="name">{name}</div>
+            <div className="name text-white">{name}</div>
             <div className="punchline">{punchline}</div>
           </div>
         </div>
