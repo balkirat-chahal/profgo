@@ -17,7 +17,7 @@ function SearchBar(props) {
 
   return (
     <form onSubmit={handleSubmit} className='flex flex-row justify-center items-center'>
-        <input type='text' value={search} onChange={handleChange} className='
+        <input type='text' value={search} onChange={handleChange} placeholder='Try me' className='pl-4
         bg-gray-600
         rounded-lg
         text-base
