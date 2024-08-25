@@ -1,9 +1,11 @@
 import React from 'react';
 import pokiball from '../assets/pokiball.png';
 import '../App.css'; 
+import { Link } from 'react-router-dom';
 
 const ProfGoLogo = () => {
   return (
+    <Link to='/'>
     <div className="flex flex-col justify-center items-center bg-none">
       <h1 className="text-4xl font-bold text-green-500 flex items-center">
         Prof<span className="OG text-yellow-500 mr-0">G</span>
@@ -12,6 +14,7 @@ const ProfGoLogo = () => {
         </span>
       </h1>
     </div>
+    </Link>
   );
 };
 

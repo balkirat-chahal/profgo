@@ -1,8 +1,10 @@
 import React from 'react';
 import Navbar from './components/Navbar';
-import Card from './components/Card';
+import Home from './components/Home';
+import Quiz from './components/Quiz';
 import { useState } from 'react';
 import professors from './professors.json';
+import { Routes, Route } from 'react-router-dom';
 
 function App() {
 
@@ -14,21 +16,12 @@ function App() {
       <div>
         <Navbar search={search} setSearch={setSearch}/>
       </div>
-    
-      <div className='Body flex flex-wrap justify-center'>
-        {
-          profs.filter(prof => prof.name.toLowerCase().includes(search.toLowerCase()))
-          .map( (prof, index) => {
-            return <Card 
-            name={prof.name}
-            punchline={prof.punchline}
-            photo_link={prof.photo_link}
-            courses={prof.courses}
-            skills={prof.skills}
-            />
-          })
-        }
-      </div>
+
+      <Routes>
+        <Route path='/' element={<Home search={search} profs={profs}/>}/>
+        <Route path='/quiz' element={<Quiz profs={profs}/>}/>
+      </Routes>
+
     </div>
   )
 }
