@@ -50,14 +50,12 @@ function Quiz(props) {
     justify-center
     flex
     flex-col
-    border
-    border-white
     '>
         <h2 className='text-xl text-green-600 ml-auto mr-auto'>Guess the Prof</h2>
         { win < 2 && attempts != 0 && <h2 className='text-xl text-white ml-auto mr-auto'>Attempts Left: {attempts}</h2>}
         { win == 1 && <h2 className='text-xl text-green-600 ml-auto mr-auto'>You're Correct! The Prof is:</h2>}
-        {win == 2 && <h2 className='text-xl text-white ml-auto mr-auto'>The Prof is: </h2>}
-        <button onClick={reset} className='p-2 text-xl text-white bg-green-600 rounded-lg hover:cursor-pointer'>Get New!</button>
+        {attempts <= 0 && <h2 className='text-xl text-white ml-auto mr-auto'>The Prof is: </h2>}
+        { attempts <= 0 && <button onClick={reset} className='p-2 text-xl text-white bg-green-600 rounded-lg hover:cursor-pointer'>Get New!</button>}
 
       <div className='w-full items-center justify-center ml-auto mr-auto'>
         <ProfFinder name={prof.name} punchline={prof.punchline} photo_link={prof.photo_link} skills={prof.skills} courses={prof.courses} attempts={attempts}/>
@@ -69,7 +67,6 @@ function Quiz(props) {
       flex-row
       justiy-center
       bottom-5
-      absolute
       w-2/5
       '>
         <input type='text' value={guess} onChange={handleChange} className='
