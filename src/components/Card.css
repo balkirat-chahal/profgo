@@ -1,7 +1,7 @@
 /* Container to hold the card with perspective */
 .card-container {
-    width: 14rem;
-    height: 18rem;
+    width: 16rem;
+    height: 20rem;
     perspective: 1000px;
   }
   

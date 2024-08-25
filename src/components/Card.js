@@ -1,26 +1,32 @@
 import React from 'react';
-import pokiball from '../assets/pokiball.png';
-import './Card.css'
+import './Card.css';
 
-function Card() {
+function Card({ name, punchline, photo_link, skills = [], courses = [] }) {
   return (
     <div className="card-container">
       <div className="card">
-        <div className="card-front p-10">
-          <div className="border-2 w-full h-full rounded-md">
-            <div className="flex border-b-2 h-32">
-              <div className="p-2 h-40 w-36">
-                <img src={pokiball} alt="pokiball" width="100" height="100" className="border-2" />
-              </div>
-              <div className="text-white pt-10">Osmar Zaine</div>
-            </div>
-                
+        <div className="card-front">
+          <div className="border-2 w-full h-full rounded-md border-green-500 flex flex-col items-center justify-center">
+            <img src={photo_link} alt={name} className="prof-photo" />
+            <div className="name">{name}</div>
+            <div className="punchline">{punchline}</div>
           </div>
         </div>
 
         <div className="card-back">
-          <div className="border-2 w-full h-full rounded-md bg-red-600 text-white flex items-center justify-center">
-            Back of the Card
+          <div className="border-2 w-full h-full rounded-md bg-red-600 text-white flex flex-col items-center justify-center">
+            <h3>Abilities</h3>
+            <ul className="abilities">
+              {skills.map((skill, index) => (
+                <li key={index}>{skill}</li>
+              ))}
+            </ul>
+            <h3>Courses Taught</h3>
+            <ul className="courses">
+              {courses.map((course, index) => (
+                <li key={index}>{course}</li>
+              ))}
+            </ul>
           </div>
         </div>
       </div>
@@ -29,4 +35,5 @@ function Card() {
 }
 
 export default Card;
+
 
