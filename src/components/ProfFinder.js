@@ -2,7 +2,7 @@ import React from 'react';
 
 function ProfFinder({ name, punchline, photo_link, skills = [], courses = [], attempts }) {
   return (
-    <div className="m-4 mb-10  ml-auto mr-auto border p-4 border-green-500 rounded-md w-3/12">
+    <div className="m-4 mb-10  ml-auto mr-auto border p-4 border-green-500 rounded-md w-full md:w-3/12">
       <div className="">
         <div className="flex flex-col items-center justify-center">
           { attempts <= 0 && <img src={photo_link} alt={name} className="prof-photo w-32 h-32 rounded-full border-2 border-white mb-2" />}
