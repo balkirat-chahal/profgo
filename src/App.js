@@ -2,10 +2,11 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Card from './components/Card';
 import { useState } from 'react';
+import professors from './professors.json';
 
 function App() {
 
-  const [profs, setProfs] = useState([]);
+  const [profs, setProfs] = useState(JSON.parse(JSON.stringify(professors)));
   const [search, setSearch] = useState("");
 
   return (
@@ -15,31 +16,12 @@ function App() {
       </div>
     
       <div className='Body flex flex-wrap justify-center'>
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        {console.log(search)}
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
+        {
+          profs.filter(prof => prof.name.toLowerCase().includes(search.toLowerCase()))
+          .map( (prof, index) => {
+            return <Card />
+          })
+        }
       </div>
     </div>
   )
