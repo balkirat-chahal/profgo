@@ -1,0 +1,172 @@
+[
+    {
+        "name": "Marianne Morris",
+        "punchline": "Turning coding rookies into programming pros!",
+        "photo_link": "https://www.ualberta.ca/computing-science/images/faculty/morris.jpg",
+        "courses": [
+            "CMPUT 174 - Introduction to the Foundations of Computation I",
+            "CMPUT 175 - Introduction to the Foundations of Computation II"
+        ],
+        "skills": [
+            "Programming Fundamentals",
+            "Software Engineering",
+            "Education"
+        ]
+    },
+    {
+        "name": "Robert Hackman",
+        "punchline": "Keeping the computing machinery well-oiled.",
+        "photo_link": "https://www.ualberta.ca/computing-science/images/faculty/hackman.jpg",
+        "courses": [
+            "CMPUT 174 - Introduction to the Foundations of Computation I",
+            "CMPUT 496 - Project Course"
+        ],
+        "skills": [
+            "System Design",
+            "Project Management",
+            "Computer Architecture"
+        ]
+    },
+    {
+        "name": "Randy Goebel",
+        "punchline": "Teaching AI to think like a human, one neuron at a time.",
+        "photo_link": "https://www.ualberta.ca/computing-science/images/faculty/goebel.jpg",
+        "courses": [
+            "CMPUT 366 - Intelligent Systems",
+            "CMPUT 396 - Special Topics in Computing Science"
+        ],
+        "skills": [
+            "Artificial Intelligence",
+            "Machine Learning",
+            "Neural Networks"
+        ]
+    },
+    {
+        "name": "Osmar Zaiane",
+        "punchline": "Data miner by day, code wizard by night.",
+        "photo_link": "https://www.ualberta.ca/computing-science/images/faculty/zaiane.jpg",
+        "courses": [
+            "CMPUT 300 - Introduction to Data Mining",
+            "CMPUT 690 - Advanced Machine Learning",
+            "CMPUT 175 - Introduction to the Foundations of Computation II"
+        ],
+        "skills": [
+            "Data Mining",
+            "Machine Learning",
+            "Data Analysis"
+        ]
+    },
+    {
+        "name": "Vadim Bulitko",
+        "punchline": "Outsmarting AIs before they outsmart us.",
+        "photo_link": "https://www.ualberta.ca/computing-science/images/faculty/bulitko.jpg",
+        "courses": [
+            "CMPUT 466 - Machine Learning",
+            "CMPUT 496 - Applied Artificial Intelligence",
+            "CMPUT 272 - Formal Systems and Logic in Computing Science"
+        ],
+        "skills": [
+            "Artificial Intelligence",
+            "Game Theory",
+            "Machine Learning"
+        ]
+    },
+    {
+        "name": "J Nelson Amaral",
+        "punchline": "Compiling wisdom into every line of code!",
+        "photo_link": "https://www.ualberta.ca/computing-science/images/faculty/amaral.jpg",
+        "courses": [
+            "CMPUT 229 - Computer Organization and Architecture",
+            "CMPUT 603 - Advanced Computer Systems"
+        ],
+        "skills": [
+            "Computer Architecture",
+            "Systems Programming",
+            "Compiler Design"
+        ]
+    },
+    {
+        "name": "Karim Ali",
+        "punchline": "Tracing bugs faster than they can hide!",
+        "photo_link": "https://www.ualberta.ca/computing-science/images/faculty/ali.jpg",
+        "courses": [
+            "CMPUT 301 - Introduction to Software Engineering",
+            "CMPUT 663 - Software Analysis and Transformation"
+        ],
+        "skills": [
+            "Software Engineering",
+            "Debugging",
+            "Software Analysis"
+        ]
+    },
+    {
+        "name": "Sadaf Ahmed",
+        "punchline": "Turning theory into practice, one student at a time!",
+        "photo_link": "https://www.ualberta.ca/computing-science/images/faculty/ahmed.jpg",
+        "courses": [
+            "CMPUT 174 - Introduction to the Foundations of Computation I"
+        ],
+        "skills": [
+            "Computer Science Education",
+            "Theory of Computation",
+            "Programming"
+        ]
+    },
+    {
+        "name": "Euijin Choo",
+        "punchline": "Empowering the next generation of data wizards.",
+        "photo_link": "https://www.ualberta.ca/computing-science/images/faculty/choo.jpg",
+        "courses": [
+            "CMPUT 391 - Introduction to Databases",
+            "CMPUT 663 - Software Analysis and Transformation",
+            "CMPUT 175 - Introduction to the Foundations of Computation II"
+        ],
+        "skills": [
+            "Database Systems",
+            "Software Engineering",
+            "Data Science"
+        ]
+    },
+    {
+        "name": "Henry Tan",
+        "punchline": "Balancing circuits and code like a tech tightrope walker.",
+        "photo_link": "https://www.ualberta.ca/computing-science/images/faculty/tan.jpg",
+        "courses": [
+            "CMPUT 329 - Computer Organization and Architecture",
+            "CMPUT 428 - Embedded Systems"
+        ],
+        "skills": [
+            "Embedded Systems",
+            "Computer Architecture",
+            "Circuit Design"
+        ]
+    },
+    {
+        "name": "Hazel Campbell",
+        "punchline": "Bringing the magic of code to every classroom.",
+        "photo_link": "https://www.ualberta.ca/computing-science/images/faculty/campbell.jpg",
+        "courses": [
+            "CMPUT 174 - Introduction to the Foundations of Computation I",
+            "CMPUT 175 - Introduction to the Foundations of Computation II"
+        ],
+        "skills": [
+            "Programming Fundamentals",
+            "Education",
+            "Code Pedagogy"
+        ]
+    },
+    {
+        "name": "Rich Sutton",
+        "punchline": "Master of reinforcement learning, teaching AI to learn like humans.",
+        "photo_link": "https://www.ualberta.ca/computing-science/images/faculty/sutton.jpg",
+        "courses": [
+            "CMPUT 466 - Machine Learning",
+            "CMPUT 652 - Reinforcement Learning"
+        ],
+        "skills": [
+            "Reinforcement Learning",
+            "Machine Learning",
+            "AI Research"
+        ]
+    }
+]
