@@ -15,6 +15,24 @@ function App() {
       </div>
     
       <div className='Body flex flex-wrap justify-center'>
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
         {console.log(search)}
         <Card />
         <Card />

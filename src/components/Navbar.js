@@ -15,7 +15,7 @@ function Navbar(props) {
         flex
         flex-row
         items-center
-        '>
+        pb-3'>
 
             <ProfGoLogo />
             {/* Search Bar */}
