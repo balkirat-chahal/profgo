@@ -1,8 +1,10 @@
+
+
 [
     {
         "name": "Marianne Morris",
         "punchline": "Turning coding rookies into programming pros!",
-        "photo_link": "https://www.ualberta.ca/computing-science/images/faculty/morris.jpg",
+        "photo_link": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlAvZc2h4avxVcK8SC5gFhKDkqe1SdOqBXiw&s",
         "courses": [
             "CMPUT 174 - Introduction to the Foundations of Computation I",
             "CMPUT 175 - Introduction to the Foundations of Computation II"
@@ -16,7 +18,7 @@
     {
         "name": "Robert Hackman",
         "punchline": "Keeping the computing machinery well-oiled.",
-        "photo_link": "https://www.ualberta.ca/computing-science/images/faculty/hackman.jpg",
+        "photo_link": "https://i.postimg.cc/gcMFv3Tp/robert.png",
         "courses": [
             "CMPUT 174 - Introduction to the Foundations of Computation I",
             "CMPUT 496 - Project Course"
@@ -30,7 +32,7 @@
     {
         "name": "Randy Goebel",
         "punchline": "Teaching AI to think like a human, one neuron at a time.",
-        "photo_link": "https://www.ualberta.ca/computing-science/images/faculty/goebel.jpg",
+        "photo_link": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcScgwZEs7X_X8fC8TWxvIco37fcwiqocf7wGeO_6YHoxnbpZSSuiZLMSW3qGsdUe5zgvTSSwnK6tCF8YF2TJTDzODZbnw2vxXe0tjQd3Fg",
         "courses": [
             "CMPUT 366 - Intelligent Systems",
             "CMPUT 396 - Special Topics in Computing Science"
@@ -44,7 +46,7 @@
     {
         "name": "Osmar Zaiane",
         "punchline": "Data miner by day, code wizard by night.",
-        "photo_link": "https://www.ualberta.ca/computing-science/images/faculty/zaiane.jpg",
+        "photo_link": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Osmar_Zaiane.jpg",
         "courses": [
             "CMPUT 300 - Introduction to Data Mining",
             "CMPUT 690 - Advanced Machine Learning",
@@ -59,7 +61,7 @@
     {
         "name": "Vadim Bulitko",
         "punchline": "Outsmarting AIs before they outsmart us.",
-        "photo_link": "https://www.ualberta.ca/computing-science/images/faculty/bulitko.jpg",
+        "photo_link": "https://forum.ai4society.ca/Photos/Vadim_Bulitko.jpg?1723047108.9049",
         "courses": [
             "CMPUT 466 - Machine Learning",
             "CMPUT 496 - Applied Artificial Intelligence",
@@ -74,7 +76,7 @@
     {
         "name": "J Nelson Amaral",
         "punchline": "Compiling wisdom into every line of code!",
-        "photo_link": "https://www.ualberta.ca/computing-science/images/faculty/amaral.jpg",
+        "photo_link": "https://www.ualberta.ca/computing-science/media-library/carousel-features/feat-amaral.jpg",
         "courses": [
             "CMPUT 229 - Computer Organization and Architecture",
             "CMPUT 603 - Advanced Computer Systems"
@@ -88,7 +90,7 @@
     {
         "name": "Karim Ali",
         "punchline": "Tracing bugs faster than they can hide!",
-        "photo_link": "https://www.ualberta.ca/computing-science/images/faculty/ali.jpg",
+        "photo_link": "https://pwlconf.org/images/2019/karim-ali.jpg",
         "courses": [
             "CMPUT 301 - Introduction to Software Engineering",
             "CMPUT 663 - Software Analysis and Transformation"
@@ -102,7 +104,7 @@
     {
         "name": "Sadaf Ahmed",
         "punchline": "Turning theory into practice, one student at a time!",
-        "photo_link": "https://www.ualberta.ca/computing-science/images/faculty/ahmed.jpg",
+        "photo_link": "https://i.postimg.cc/2yCkVmyx/sasaf.png",
         "courses": [
             "CMPUT 174 - Introduction to the Foundations of Computation I"
         ],
@@ -115,7 +117,7 @@
     {
         "name": "Euijin Choo",
         "punchline": "Empowering the next generation of data wizards.",
-        "photo_link": "https://www.ualberta.ca/computing-science/images/faculty/choo.jpg",
+        "photo_link": "https://alleychoo.github.io/files/biz_photo.png",
         "courses": [
             "CMPUT 391 - Introduction to Databases",
             "CMPUT 663 - Software Analysis and Transformation",
@@ -128,9 +130,9 @@
         ]
     },
     {
-        "name": "Henry Tan",
+        "name": "Henry Tang",
         "punchline": "Balancing circuits and code like a tech tightrope walker.",
-        "photo_link": "https://www.ualberta.ca/computing-science/images/faculty/tan.jpg",
+        "photo_link": "https://conf.researchr.org/getProfileImage/henrytang/4188d9d4-82f1-42fd-a1d7-58da6c56224c/small.jpg?1711840685000",
         "courses": [
             "CMPUT 329 - Computer Organization and Architecture",
             "CMPUT 428 - Embedded Systems"
@@ -143,8 +145,8 @@
     },
     {
         "name": "Hazel Campbell",
-        "punchline": "Bringing the magic of code to every classroom.",
-        "photo_link": "https://www.ualberta.ca/computing-science/images/faculty/campbell.jpg",
+        "punchline": "idk bro",
+        "photo_link": "https://media.licdn.com/dms/image/C5603AQHwu3vcUVk-KQ/profile-displayphoto-shrink_200_200/0/1635628715864?e=2147483647&v=beta&t=h8soe3kCe7OM4fP0Mng9O58VYaditNP5DpNfXkx9tz4",
         "courses": [
             "CMPUT 174 - Introduction to the Foundations of Computation I",
             "CMPUT 175 - Introduction to the Foundations of Computation II"
@@ -158,7 +160,7 @@
     {
         "name": "Rich Sutton",
         "punchline": "Master of reinforcement learning, teaching AI to learn like humans.",
-        "photo_link": "https://www.ualberta.ca/computing-science/images/faculty/sutton.jpg",
+        "photo_link": "data:image/webp;base64,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",
         "courses": [
             "CMPUT 466 - Machine Learning",
             "CMPUT 652 - Reinforcement Learning"
