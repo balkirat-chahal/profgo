@@ -14,6 +14,7 @@ function SearchBar(props) {
     e.preventDefault();
   }
 
+  
   return (
     <form onSubmit={handleSubmit} className='flex flex-row justify-center items-center'>
         <input type='text' value={search} onChange={handleChange} className='
