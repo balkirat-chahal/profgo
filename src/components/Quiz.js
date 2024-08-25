@@ -67,7 +67,8 @@ function Quiz(props) {
       flex-row
       justiy-center
       bottom-5
-      w-2/5
+      w-full
+      sm:w-2/5
       '>
         <input type='text' value={guess} onChange={handleChange} className='
         bg-gray-600
@@ -77,6 +78,8 @@ function Quiz(props) {
         rounded-lg
         text-white
         '/>
+
+        <button type='submit'className='p-2 text-xl text-white bg-green-600 rounded-lg hover:cursor-pointer ml-2'>Submit</button>
       </form>
     </div>
   )
